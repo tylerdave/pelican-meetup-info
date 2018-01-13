@@ -36,7 +36,7 @@ Installation
     .. code-block:: python  
   
       MEETUP_GROUP_SIGNED_URL = 'https://api.meetup.com/Cleveland-Area-Python-Interest-Group?photo-host=public&sig_id=1442&sig=3c0d385c607d27a7bd3ae14f220f17856eb163c1'
-      MEETUP_EVENTS_SIGNED_URL= 'https://api.meetup.com/Cleveland-Area-Python-Interest-Group/events?photo-                                                          host=public&page=20&sig_id=1442&sig=3dcd3aa3bfacf17cb45302a722ced9727e99cd37'
+      MEETUP_EVENTS_SIGNED_URL= 'https://api.meetup.com/Cleveland-Area-Python-Interest-Group/events?photo-host=public&page=20&sig_id=1442&sig=3dcd3aa3bfacf17cb45302a722ced9727e99cd37'
      
     More info about signed URLs here: https://www.meetup.com/meetup_api/auth/#keysign
 
