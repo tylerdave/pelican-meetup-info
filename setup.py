@@ -13,7 +13,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='pelican-meetup-info',
-    version='0.0.1',
+    version='0.0.2',
     description='A Pelican plugin that provides group and event information for a meetup.com group.',
     long_description=long_description,
     url='https://github.com/tylerdave/pelican-meetup-info',
