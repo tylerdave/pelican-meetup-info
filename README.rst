@@ -35,7 +35,7 @@ Installation
 
     .. code-block:: python  
   
-      MEETUP_GROUP_SIGNED_URL = 'https://api.meetup.com/Cleveland-Area-Python-Interest- Group?photo-host=public&sig_id=1445&sig=3c0d385c607d27a7bd3ae14f220f17856eb163b0'
+      MEETUP_GROUP_SIGNED_URL = 'https://api.meetup.com/Cleveland-Area-Python-Interest-Group?photo-host=public&sig_id=1445&sig=3c0d385c607d27a7bd3ae14f220f17856eb163b0'
       MEETUP_EVENTS_SIGNED_URL= 'https://api.meetup.com/Cleveland-Area-Python-Interest-Group?photo-host=public&sig_id=1445&sig=3c0d385c607d27a7bd3ae14f220f17856eb163b0'
 
      
@@ -46,7 +46,9 @@ Installation
 Usage
 ***************
 
-With the plugin installed and properly configured, new dictionaries named `meetup_grop` and `meetup_events` containg the Meetup API responses will be availabe in your page/article context. You may reference them in templates like this:
+With the plugin installed and properly configured, new dictionaries named `meetup_group` and `meetup_events` containg the Meetup API responses will be availabe in your page/article context. You may reference them in templates like this:
+
+meetup_group:
 
   .. code-block:: html  
 
@@ -57,6 +59,8 @@ With the plugin installed and properly configured, new dictionaries named `meetu
     {% endif %}
 
 More info about group data: https://secure.meetup.com/meetup_api/console/?path=/:urlname
+
+meetup_events:
 
   .. code-block:: html
 
